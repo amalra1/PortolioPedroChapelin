@@ -16,7 +16,7 @@ indicar de outra maneira como a tag termina.
 
 **--> Tags**
 
-- `<h1>`, `<h2>`, ..., `<h6>` --> Heading (cabeçalhos);
+- `<h1>`, `<h2>`, ..., `<h6>` --> Heading (cabeçalhos ou títulos);
 > Um bom site não passa de *h3*;
 - `<p>` --> Parágrafo
 
