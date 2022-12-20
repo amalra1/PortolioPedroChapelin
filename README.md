@@ -11,8 +11,12 @@
     (conteúdo)
   </tag>
   ```
+Algumas tags especiais não precisam da tag de fechamento, pois você consegue  
+indicar de outra maneira como a tag termina.  
+
 **--> Tags**
 
 - `<h1>`, `<h2>`, ..., `<h6>` --> Heading (cabeçalhos);
+> Um bom site não passa de *h3*;
 - `<p>` --> Parágrafo
 
