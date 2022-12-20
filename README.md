@@ -13,6 +13,6 @@
   ```
 **--> Tags**
 
-- `<h1>`, `<h2>`, ..., `<hN>` --> Header 'N';
+- `<h1>`, `<h2>`, ..., `<h6>` --> Heading (cabeçalhos);
 - `<p>` --> Parágrafo
 
