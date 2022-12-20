@@ -11,8 +11,8 @@
   (conteúdo)
 </tag>
 ```
-Algumas tags especiais não precisam da tag de fechamento, pois você consegue  
-indicar de outra maneira como a tag termina.  
+Algumas tags especiais não precisam da tag de fechamento, se não é estruturada 
+como: `<começo>` **(meio)** `</fim>`, não precisa fechar.
   
 - As *tags* podem possuir **atributos**, que vem logo em seguida do nome delas 
 na tag de abertura, como por exemplo: `<a href="link">`.
