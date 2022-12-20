@@ -33,7 +33,7 @@ na tag de abertura, como por exemplo: `<a href="link">`.
     
 - `<a>` --> *Anchor*, ou tag que é usada para links que te levam a 
 outros lugares, fica dentro da tag `<nav>` também;
-> <a href=" "> Skills </a> transforma *Skills* em um botão que te
+> `<a href=" ">` Skills `</a>` transforma *Skills* em um botão que te
 leva para algum lugar indicado pelas "" após *href*
   
 -
