@@ -16,13 +16,21 @@ indicar de outra maneira como a tag termina.
 
 **--> Tags**
 
+- `<!-- -->` --> Comentário;  
+  
 - `<h1>`, `<h2>`, ..., `<h6>` --> Heading (cabeçalhos ou títulos);
 > Um bom site não passa de *h3*;
+  
 - `<p>` --> Parágrafo;
+  
 - `<nav>` --> Navegação;
-> É usada para botões que te façam **nav**egar pelo site;  
+> É usada para botões que te façam **nav**egar pelo site;
+    
 - `<a>` --> *Anchor*, ou tag que é usada para links que te levam a 
-outros lugares, fica dentro da tag `<nav>` também
+outros lugares, fica dentro da tag `<nav>` também;
+  
+
+
 
 ## Anotações gerais
   
