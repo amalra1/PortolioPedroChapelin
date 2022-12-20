@@ -17,6 +17,9 @@ indicar de outra maneira como a tag termina.
 - As *tags* podem possuir **atributos**, que vem logo em seguida do nome delas 
 na tag de abertura, como por exemplo: `<a href="link">`.
   
+- Na mesma pasta do **index.html**, criar uma pasta chamada **assets**.
+Nela, ficarão todos os recursos a serem utilizados no site, como imagens
+por exemplo.
   
   
 **--> Tags**
