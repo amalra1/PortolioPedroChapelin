@@ -18,7 +18,10 @@ indicar de outra maneira como a tag termina.
 
 - `<h1>`, `<h2>`, ..., `<h6>` --> Heading (cabeçalhos ou títulos);
 > Um bom site não passa de *h3*;
-- `<p>` --> Parágrafo
+- `<p>` --> Parágrafo;
+- `<nav>` --> Navegação;
+> É usada para botões que te façam **nav**egar pelo site;  
+-
 
 ## Anotações gerais
   
