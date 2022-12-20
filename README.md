@@ -4,5 +4,5 @@
 
 ## HTML
 
-- Geralmente o nome da página principal é **index.html**
+- Geralmente o nome da página principal, por convenção, é **index.html**
 - 
