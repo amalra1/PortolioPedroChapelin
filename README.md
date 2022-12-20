@@ -20,3 +20,8 @@ indicar de outra maneira como a tag termina.
 > Um bom site não passa de *h3*;
 - `<p>` --> Parágrafo
 
+## Anotações gerais
+  
+- Em um site, é melhor atualizar a página com `Ctrl + R` do que com `F5`,  
+pois esse mantém o *cache* da página anterior, podendo não atualizar para  
+a versão mais recente.
