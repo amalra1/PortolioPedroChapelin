@@ -39,7 +39,8 @@ outros lugares, fica dentro da tag `<nav>` também;
 > `<a href=" ">` Skills `</a>` transforma *Skills* em um botão que te
 leva para algum lugar indicado pelas "" após *href*
   
--
+- `<img>` --> Insere uma imagem;
+> `<img src="PATH">``</img>` Puxa uma imagem do **PATH** inserido.
   
 
 
