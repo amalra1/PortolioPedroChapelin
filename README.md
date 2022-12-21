@@ -101,6 +101,10 @@ atributo `lang="pt-BR`, que altera a linguagem do conteúdo da tag.
 ```html  
 <header style="background-color: rgb(171, 106, 255);">
 ```
+> Sempre será nesse estilo, `<tag atribut= propriedade CSS: valor>`
+  
+
+
 
 
 ## Anotações gerais
