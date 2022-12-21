@@ -129,6 +129,15 @@ necessário fazer:
 ```html
 <link rel="stylesheet" href="PATH">
 ```
+>index.html
+
+```css
+a {
+  color: white;
+}
+```
+>index.css
+
   
 
 ## Anotações gerais
