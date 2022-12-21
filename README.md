@@ -22,13 +22,18 @@ Nela, ficarão todos os recursos a serem utilizados no site, como imagens
 por exemplo.
   
   
-**--> Tags**
+###### --> Tags
+
 
 - `<!-- -->` --> Comentário;
+
+- `<head>` --> Tudo que é configuração, vem antes do *<body>*;
   
 - `<title>` --> Título da aba.
   
 - `<meta charset="utf-8">` --> Define o *locale* do website.   
+  
+- `<body>` --> *corpo* do HTML, aonde as inf gerais do site estão;
   
 - `<header>` --> Indica tudo que está dentro da parte do cabeçalho.
   
