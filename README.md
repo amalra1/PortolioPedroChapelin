@@ -45,6 +45,7 @@ por exemplo.
 </html>
 ```
 > Esta estrutura é a **CERTA** de HTML, a válida para ser usada.
+> No **VSCode**, digitar `! + tab` gera isso automaticamente.
 
 - `<!-- -->` --> Comentário;
 
@@ -96,3 +97,6 @@ atributo `lang="pt-BR`, que altera a linguagem do conteúdo da tag.
 - Em um site, é melhor atualizar a página com `Ctrl + R` do que com `F5`,  
 pois esse mantém o *cache* da página anterior, podendo não atualizar para  
 a versão mais recente.
+  
+- Para programar com HTML no **VSCode**, fica muito mais fácil utilizando
+a extensão ja instalada *Emmet*, digitando menos código. 
