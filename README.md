@@ -119,7 +119,7 @@ atributo `lang="pt-BR`, que altera a linguagem do conteúdo da tag.
 </style>
 ```
   
-### Terceiro jeito:
+### Terceiro jeito (melhor):
   
 - Criar um arquivo separado com o mesmo nome do *.html*, para os *css*
   
