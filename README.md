@@ -65,6 +65,10 @@ por exemplo.
   
 - `<p>` --> Parágrafo;
   
+- `<em>` --> Tag de **ênfase**
+> Exemplo: mudar o idioma de uma palavra escrita em inglês no meio 
+de um parágrafo todo em português: `<em lang="em"> FrontEnd </em>`
+  
 - `<nav>` --> Navegação;
 > É usada para botões que te façam **nav**egar pelo site;
     
