@@ -22,7 +22,7 @@ Nela, ficarão todos os recursos a serem utilizados no site, como imagens
 por exemplo.
   
   
-###### --> Tags
+### --> Tags
 
 
 - `<!-- -->` --> Comentário;
