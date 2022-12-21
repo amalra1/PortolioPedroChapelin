@@ -28,14 +28,16 @@ por exemplo.
   
 ```html
 <head>
-    <title></title>
+    <title>Titulo da Aba</title>
     <meta charset="utf-8">
 </head>
 
 <body>
     <header>
-
-    </header>  
+        --Cabeçalho
+    </header>
+  
+    -- Resto do site
 </body>
 ```
 
