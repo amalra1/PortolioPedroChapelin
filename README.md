@@ -24,7 +24,13 @@ por exemplo.
   
 **--> Tags**
 
-- `<!-- -->` --> Comentário;  
+- `<!-- -->` --> Comentário;
+  
+- `<title>` --> Título da aba.
+  
+- `<meta charset="utf-8">` --> Define o *locale* do website.   
+  
+- `<header>` --> Indica tudo que está dentro da parte do cabeçalho.
   
 - `<h1>`, `<h2>`, ..., `<h6>` --> Heading (cabeçalhos ou títulos);
 > Um bom site não passa de *h3*;
@@ -41,12 +47,6 @@ leva para algum lugar indicado pelas "" após *href*
   
 - `<img>` --> Insere uma imagem;
 > `<img src="PATH">``</img>` Puxa uma imagem do **PATH** inserido.
-
-- `<header>` --> Indica tudo que está dentro da parte do cabeçalho.
-    
-- `<title>` --> Título da aba.
-  
-
 
 
 ## Anotações gerais
