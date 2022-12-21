@@ -24,6 +24,20 @@ por exemplo.
   
 ### --> Tags
 
+#### Estrutura básica das tags
+  
+```html
+<head>
+    <title></title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <header>
+
+    </header>  
+</body>
+```
 
 - `<!-- -->` --> Comentário;
 
