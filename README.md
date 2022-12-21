@@ -96,16 +96,40 @@ atributo `lang="pt-BR`, que altera a linguagem do conteúdo da tag.
 
 - Cuida do **visual** do site.  
   
+### Primeiro jeito:
+  
 - Seus comandos são escritos nos **atributos** das tags do HTML:
 
 ```html  
 <header style="background-color: rgb(171, 106, 255);">
 ```
 > Sempre será nesse estilo, `<tag atribut= propriedade CSS: valor>`
+
+### Segundo jeito:
   
+- Abrir uma tag `<style>` antes:
 
+```html
+<!-- Aqui eu disse que quero style só na tag a-->
+<!-- propriedade: valor-->
+<style>
+    a {
+      color: white;
+    }
+</style>
+```
+  
+### Terceiro jeito:
+  
+- Criar um arquivo separado com o mesmo nome do *.html*, para os *css*
+  
+- Funciona como uma função, a definição dela está no arquivo, e para chamá-la,
+necessário fazer:
 
-
+```html
+<link rel="stylesheet" href="PATH">
+```
+  
 
 ## Anotações gerais
   
