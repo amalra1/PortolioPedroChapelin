@@ -44,8 +44,8 @@ por exemplo.
     </body>
 </html>
 ```
-> Esta estrutura é a **CERTA** de HTML, a válida para ser usada.
-> No **VSCode**, digitar `! + tab` gera isso automaticamente.
+> Esta estrutura é a **CERTA** de HTML, a válida para ser usada.  
+> No **VSCode**, digitar `! + tab` gera isso automaticamente. (*Emmet*)
 
 - `<!-- -->` --> Comentário;
 
