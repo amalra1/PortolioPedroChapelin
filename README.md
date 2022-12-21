@@ -44,8 +44,8 @@ por exemplo.
     </body>
 </html>
 ```
-> Esta estrutura é a **CERTA** de HTML, a válida para ser usada.  
-> No **VSCode**, digitar `! + tab` gera isso automaticamente. (*Emmet*)
+> Esta estrutura é a **CERTA** de HTML, a válida para ser usada.
+> No **VSCode**, digitar `! + tab` gera isso automaticamente.
 
 - `<!-- -->` --> Comentário;
 
@@ -89,7 +89,18 @@ leva para algum lugar indicado pelas "" após *href*
   Os globais podem ser usados em qualquer tag, como por exemplo o
 atributo `lang="pt-BR`, que altera a linguagem do conteúdo da tag.  
   Já os locais só podem ser usados em tags específicas, como o
-`href="link"` da tag *<a>*.  
+`href="link"` da tag *<a>*.
+
+
+## CSS
+
+- Cuida do **visual** do site.  
+  
+- Seus comandos são escritos nos **atributos** das tags do HTML:
+
+```html  
+<header style="background-color: rgb(171, 106, 255);">
+```
 
 
 ## Anotações gerais
