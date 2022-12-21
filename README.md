@@ -22,26 +22,33 @@ Nela, ficarão todos os recursos a serem utilizados no site, como imagens
 por exemplo.
   
   
-### --> Tags
+### Tags
 
 #### Estrutura básica das tags
   
 ```html
-<head>
-    <title>Titulo da Aba</title>
-    <meta charset="utf-8">
-</head>
+<!DOCTYPE html>
 
-<body>
-    <header>
-        --Cabeçalho
-    </header>
-  
-    -- Resto do site
-</body>
+<html>
+    <head>
+        <title>Titulo da Aba</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <header>
+            --Cabeçalho
+        </header>
+      
+        -- Resto do site
+    </body>
+</html>
 ```
+> Esta estrutura é a **CERTA** de HTML, a válida para ser usada.
 
 - `<!-- -->` --> Comentário;
+
+- `<!DOCTYPE html>` --> Define a versão mais estável do *HTML*;
 
 - `<head>` --> Tudo que é configuração, vem antes do *<body>*;
   
@@ -68,6 +75,18 @@ leva para algum lugar indicado pelas "" após *href*
   
 - `<img>` --> Insere uma imagem;
 > `<img src="PATH">``</img>` Puxa uma imagem do **PATH** inserido.
+<br />
+<br />
+
+### Atributos
+
+  Atributos são modificadores dos conteúdos das tags, são divididos em 
+**locais** e **globais**.  
+  
+  Os globais podem ser usados em qualquer tag, como por exemplo o
+atributo `lang="pt-BR`, que altera a linguagem do conteúdo da tag.  
+  Já os locais só podem ser usados em tags específicas, como o
+`href="link"` da tag *<a>*.  
 
 
 ## Anotações gerais
