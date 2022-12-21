@@ -43,6 +43,8 @@ leva para algum lugar indicado pelas "" após *href*
 > `<img src="PATH">``</img>` Puxa uma imagem do **PATH** inserido.
 
 - `<header>` --> Indica tudo que está dentro da parte do cabeçalho.
+    
+- `<title>` --> Título da aba.
   
 
 
