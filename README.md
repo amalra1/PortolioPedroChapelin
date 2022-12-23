@@ -138,6 +138,25 @@ a {
 ```
 >index.css
 
+#### Cores
+
+- Há três jeitos de representar as propriedades de cor no **CSS**
+  
+1. **Nome**
+  
+`color: white;`
+  
+2. **Decimal**
+  
+`color: rgb(0, 0, 0);`
+  
+3. **Hexadecimal**
+  
+`color: #000000`
+  
+
+
+
   
 
 ## Anotações gerais
