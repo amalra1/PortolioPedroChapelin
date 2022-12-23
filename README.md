@@ -159,7 +159,7 @@ a {
 - O arquivo adicional *reset.css* serve para consertar alguns detalhes 
 específicos de navegadores, como por exemplo o caso da margem:
 
-<img src="imagens/SiteSemResetCss>">
+<img src="imagens/SiteSemResetCss.png" height=210>
 
 ## Anotações gerais
   
