@@ -156,6 +156,37 @@ a {
   
 `color: #000000`
 
+#### Fontes
+
+- Para utilizar uma fonte que talvez não tenha baixado no computador,
+utilizamos as fontes do site [Google fonts](https://fonts.google.com/)
+
+Para isso é necessário primeiro estabelecer um link com o download online
+da fonte, adquirido ao pesquisar o nome da mesma no site.
+
+```html
+<!-- Links obtidos do site -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap" rel="stylesheet">
+```
+  
+Depois disso, podemos indexá-la no *index.css*
+
+```css
+/* Algumas propriedades definidas para a fonte*/
+a {
+  color: white;
+  font-family:"Fira Code"; 
+  font-weight: 500;
+  font-size: 20px;
+  font-style: normal;
+  text-decoration: none;
+  margin-right: 30px;
+}
+```
+  
+
 ### Reset.css
 
 - O arquivo adicional *reset.css* serve para consertar alguns detalhes 
