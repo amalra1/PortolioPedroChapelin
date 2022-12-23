@@ -94,6 +94,8 @@ atributo `lang="pt-BR`, que altera a linguagem do conteúdo da tag.
 
 ## CSS
 
+[Site com explicações de propriedades](https://developer.mozilla.org/pt-BR/docs/Web/CSS/text-decoration)
+
 - Cuida do **visual** do site.  
   
 ### Primeiro jeito:
@@ -139,8 +141,6 @@ a {
 >index.css
 
 #### Cores
-
-[Site com explicações de propriedades](https://developer.mozilla.org/pt-BR/docs/Web/CSS/text-decoration)
   
 - Há três jeitos de representar as propriedades de cor no **CSS**
   
