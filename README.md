@@ -140,6 +140,37 @@ a {
 ```
 >index.css
 
+### Reset.css
+
+- O arquivo adicional *reset.css* serve para consertar alguns detalhes 
+específicos de navegadores, como por exemplo o caso da margem:
+
+<img src="imagens/SiteSemResetCss.png">
+> Observe a margem aos lados, não queremos ela no site.
+  
+Para isso, criamos o *reset*, inserindo-o no arquivo da mesma maneira 
+que inserimos o *index*:
+  
+`<link rel="stylesheet" href="css/reset.css">`
+  
+E dentro desse arquivo, colocamos as propriedades que queremos definir
+para cada tag:
+  
+```css
+body {
+
+    margin: 0;
+}
+```
+  
+- Agora note como ficou o site:
+  
+<img src="imagens/SiteComResetCss.png">
+> As margens sumiram.
+  
+- Geralmente é copiado algum reset.css, pois alguns são muito gerais e já
+tratam de qualquer bug que o site possa ter. O mais famoso é o do [Eric Mayer](https://meyerweb.com/eric/tools/css/reset/)
+
 ### Cores
   
 - Há três jeitos de representar as propriedades de cor no **CSS**
@@ -186,37 +217,38 @@ a {
 }
 ```
   
+### Isolando tags
+  
+- Quando se quer fazer algo muito específico com alguma tag, nós usamos o
+atributo **id**
 
-### Reset.css
+```html
+<!-- Querendo pegar só o 'Download CV' -->
+<nav>
+  <a href="" lang="en">Skills</a>
+  <a href="">Projetos</a>
+  <a href="">Sobre</a>
+  <a href="">Contatos</a>
+  <a id="button" href="" lang="en">Download CV</a>
+</nav>
+```
+> Com a *id*, demos o nome daquela tag específica de 'button'
 
-- O arquivo adicional *reset.css* serve para consertar alguns detalhes 
-específicos de navegadores, como por exemplo o caso da margem:
+Dessa maneira, conseguimos mexer nela especificamente no *.css*
 
-<img src="imagens/SiteSemResetCss.png">
-> Observe a margem aos lados, não queremos ela no site.
-  
-Para isso, criamos o *reset*, inserindo-o no arquivo da mesma maneira 
-que inserimos o *index*:
-  
-`<link rel="stylesheet" href="css/reset.css">`
-  
-E dentro desse arquivo, colocamos as propriedades que queremos definir
-para cada tag:
-  
 ```css
-body {
-
-    margin: 0;
+#button {
+  display: inline-block;
+  background-color: #F25A70;
+  height: 60px;
+  line-height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 5px 5px 0 black;
 }
 ```
   
-- Agora note como ficou o site:
-  
-<img src="imagens/SiteComResetCss.png">
-> As margens sumiram.
-  
-- Geralmente é copiado algum reset.css, pois alguns são muito gerais e já
-tratam de qualquer bug que o site possa ter. O mais famoso é o do [Eric Mayer](https://meyerweb.com/eric/tools/css/reset/)
+
 
 
 
