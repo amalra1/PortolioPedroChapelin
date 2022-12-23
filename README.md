@@ -140,7 +140,7 @@ a {
 ```
 >index.css
 
-#### Cores
+### Cores
   
 - Há três jeitos de representar as propriedades de cor no **CSS**
   
@@ -156,7 +156,7 @@ a {
   
 `color: #000000`
 
-#### Fontes
+### Fontes
 
 - Para utilizar uma fonte que talvez não tenha baixado no computador,
 utilizamos as fontes do site [Google fonts](https://fonts.google.com/)
