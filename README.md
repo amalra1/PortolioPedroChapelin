@@ -140,6 +140,8 @@ a {
 
 #### Cores
 
+[Site com explicações de propriedades](https://developer.mozilla.org/pt-BR/docs/Web/CSS/text-decoration)
+  
 - Há três jeitos de representar as propriedades de cor no **CSS**
   
 1. **Nome**
@@ -180,9 +182,7 @@ body {
 - Agora note como ficou o site:
   
 <img src="imagens/SiteComResetCss.png">
-> As margens sumiram.  
-<br />
-<br />
+> As margens sumiram.
   
 - Geralmente é copiado algum reset.css, pois alguns são muito gerais e já
 tratam de qualquer bug que o site possa ter. O mais famoso é o do [Eric Mayer](https://meyerweb.com/eric/tools/css/reset/)
