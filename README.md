@@ -180,7 +180,12 @@ body {
 - Agora note como ficou o site:
   
 <img src="imagens/SiteComResetCss.png">
-> As margens sumiram.
+> As margens sumiram.  
+<br />
+<br />
+  
+- Geralmente é copiado algum reset.css, pois alguns são muito gerais e já
+tratam de qualquer bug que o site possa ter. O mais famoso é o do [Eric Mayer](https://meyerweb.com/eric/tools/css/reset/)
 
 
 
