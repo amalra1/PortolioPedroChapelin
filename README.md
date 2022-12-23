@@ -153,11 +153,13 @@ a {
 3. **Hexadecimal**
   
 `color: #000000`
-  
 
+### Reset.css
 
+- O arquivo adicional *reset.css* serve para consertar alguns detalhes 
+específicos de navegadores, como por exemplo o caso da margem:
 
-  
+<img src="imagens/SiteSemResetCss>">
 
 ## Anotações gerais
   
