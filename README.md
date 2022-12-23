@@ -160,7 +160,7 @@ a {
 específicos de navegadores, como por exemplo o caso da margem:
 
 <img src="imagens/SiteSemResetCss.png">
-> Observe a margem à esquerda, não queremos ela no site.
+> Observe a margem aos lados, não queremos ela no site.
   
 Para isso, criamos o *reset*, inserindo-o no arquivo da mesma maneira 
 que inserimos o *index*:
@@ -180,7 +180,7 @@ body {
 - Agora note como ficou o site:
   
 <img src="imagens/SiteComResetCss.png">
-> A margem à esquerda sumiu.
+> As margens sumiram.
 
 
 
