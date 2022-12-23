@@ -159,7 +159,30 @@ a {
 - O arquivo adicional *reset.css* serve para consertar alguns detalhes 
 específicos de navegadores, como por exemplo o caso da margem:
 
-<img src="imagens/SiteSemResetCss.png" height=210>
+<img src="imagens/SiteSemResetCss.png">
+> Observe a margem à esquerda, não queremos ela no site.
+  
+Para isso, criamos o *reset*, inserindo-o no arquivo da mesma maneira 
+que inserimos o *index*:
+  
+`<link rel="stylesheet" href="css/reset.css">`
+  
+E dentro desse arquivo, colocamos as propriedades que queremos definir
+para cada tag:
+  
+```css
+body {
+
+    margin: 0;
+}
+```
+  
+- Agora note como ficou o site:
+  
+<img src="imagens/SiteComResetCss.png">
+> A margem à esquerda sumiu.
+
+
 
 ## Anotações gerais
   
