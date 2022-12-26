@@ -80,6 +80,8 @@ leva para algum lugar indicado pelas "" após *href*
   
 - `<img>` --> Insere uma imagem;
 > `<img src="PATH">``</img>` Puxa uma imagem do **PATH** inserido.
+  
+- `<span>` --> delimitador;
 
 ### Atributos
 
@@ -247,6 +249,42 @@ Dessa maneira, conseguimos mexer nela especificamente no *.css*
   box-shadow: 5px 5px 0 black;
 }
 ```
+  
+- Também podemos criar **Pseudo-nomes** dentro das tags com o CSS.
+
+```css
+a::before {
+
+    content:"";
+    display: inline-block;
+    background-color: #F25A70;
+    margin-right: 10px;
+    width: 10px;
+    height: 10px;
+}
+```
+> Essa linha de comando diz que no início do conteúdo da tag *a*, eu quero 
+colocar um quadrado pequeno vermelho. Se eu quisesse no final do conteúdo,
+o comando seria `a::after`.
+
+### A propriedade display
+
+- Algumas tags ocupam a linha inteira quando você quer mudar alguma propriedade,
+para evitar isso, precisamos chamar a propriedade **display** dentro do css.
+
+```css
+#button {
+  display: inline-block;
+}
+```
+> Assim, a id *button* passa a tratar apenas do conteúdo dela, não da linha inteira.
+
+Normalmente o **display** já vem setado como *inline* por natureza, quando este é o caso,
+não é possível alterar o *width* e o *height*.
+> display *block* ocupa a linha inteira
+
+- Já o **inline-block** mistura característica dos dois, deixa na mesma linha, e permite
+alterar largura e altura também.
   
 
 
