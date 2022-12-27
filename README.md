@@ -1,6 +1,4 @@
 # CursoHTML-CSS
-  
-link do site: https://amalra1.github.io/PortolioPedroChapelin/
 
 ## Figma
 
@@ -287,6 +285,36 @@ não é possível alterar o *width* e o *height*.
 
 - Já o **inline-block** mistura característica dos dois, deixa na mesma linha, e permite
 alterar largura e altura também.
+
+### Isolando o CSS
+
+Quando o código começa a ficar muito grande, uma boa prática é **isolar** o código CSS.
+  
+Feito em arquivos adicionais *.css*, ainda facilita o reaproveitamento do código, podendo
+utilizar títulos genéricos por exemplo.
+
+```css
+#box {
+
+    display: inline-block;
+    background-color: #3A4042;
+    box-shadow: 8px 8px 0 black;
+    text-align: center;
+    padding: 42px 44px;
+    margin-top: 116px;
+    margin-left: 91px;
+}
+
+#box h1 {
+
+    margin-bottom: 28px;
+}
+```
+> Código CSS para definição de uma caixa de um tamanho específico de acordo com o texto
+
+- Observando o código também se percebe um novo jeito de definir variáveis, o **h1** que 
+está dentro da **#box**, assim, fica fácil de editar coisas específicas sem alterar o 
+código fonte que define o **h1**.
   
 
 
