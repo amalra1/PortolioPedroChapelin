@@ -10,10 +10,14 @@ header {
     padding-bottom: 10px;
 }
 
+body {
+
+  background-color: blue;
+}
+
 h1 {
 
   display: flex;
-
 }
 
 a {
