@@ -97,6 +97,7 @@ atributo `lang="pt-BR`, que altera a linguagem do conteúdo da tag.
 ## CSS
 
 [Site com explicações de propriedades](https://developer.mozilla.org/pt-BR/docs/Web/CSS/text-decoration)
+[Site CSS tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 - Cuida do **visual** do site.  
   
